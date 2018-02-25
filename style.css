@@ -9,6 +9,7 @@ body,
 }
 .wrap {
   background: url('boat.jpg') no-repeat;
+
 }
 
 h1 {
@@ -16,7 +17,18 @@ h1 {
   color: #fff;
   font-size: 18em;
 	padding-top: 210px; 
-	padding-left: 280px; 
+	padding-left: 120px; 
   margin: 0;
   text-shadow: 2px 2px 5px rgba(0,0,0, .4);
+  -webkit-animation: path 2s ease-in forwards;
+}
+
+@-webkit-keyframes path {
+  0% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0);
+
+  }
+  100% {
+    -webkit-clip-path: polygon(584px 354px, 1024px 463px, 1055px 34px, 43px 46px, 34px 525px, 639px 528px, 583px 357px);
+  }
 }
