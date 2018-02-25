@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body,
+.wrap {
+  height: 100%;
+  margin: 0;
+}
+.wrap {
+  background: url('boat.jpg') no-repeat;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  font-size: 18em;
+	padding-top: 210px; 
+	padding-left: 280px; 
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0,0,0, .4);
+}
